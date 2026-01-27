@@ -47,7 +47,7 @@ Elementene i roadmap skal beskrives kort og presist, på et helt overordnet niv�
   - Oppgaver (en liste med epos som skal leveres)
 
 Tittel skal være kort og konsis, men gi mening også på tvers av produkter i ulike visninger.  
-Avhengigheter og Tasks **skal** legges inn som [tasklists](https://github.com/digdir/roadmap#tasklists).
+Avhengigheter og Oppgaver **skal** legges inn som lenker til issues.
 
 Se [eksempel på ønsket nivå](https://github.com/digdir/roadmap/issues/78) fra roadmap for Altinn Studio.
 
