@@ -44,11 +44,11 @@ Elementene i roadmap skal beskrives kort og presist, på et helt overordnet niv�
 - Forventet resultat
 - Hvordan skal det fungere?
 - Gjennomføring
-  - Avhengigheter (en tasklist med avhengigheter til andre produkter)
-  - Tasks (en eller flere tasklists med epos som skal leveres)
+  - Avhengigheter (en liste med avhengigheter til andre produkter)
+  - Oppgaver (en liste med epos som skal leveres)
 
 Tittel skal være kort og konsis, men gi mening også på tvers av produkter i ulike visninger.  
-Avhengigheter og Tasks **skal** legges inn som [tasklists](https://github.com/digdir/roadmap#tasklists).
+Avhengigheter og Oppgaver **skal** legges inn som lenker til issues.
 
 Se [eksempel på ønsket nivå](https://github.com/digdir/roadmap/issues/78) fra roadmap for Altinn Studio.
 
@@ -71,25 +71,16 @@ Hver produkt har tre ulike layouts for visning av leveransene. Du kan [selv velg
 
 Uavhengig av hvilken layout som benyttes, så kan du alltid se på den enkelte leveranse ved å trykke på den.
 
-### Tasklists
+### Oppgaver
 
 For at veikart skal kunne gi de ønskede effektene så **skal** koblinger mot epos i underliggende backlogs legges inn.
 
-Hvert element i roadmap skal inneholde en eller flere [tasklist](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-tasklists) som lenker ned mot ett eller flere epos i produktbacklog.  
+Hvert element i roadmap skal inneholde en liste som lenker ned mot ett eller flere epos i produktbacklog.  
 Når alle lenkede epos er lukket så kan roadmap-elementet også lukkes.
-
-MERK: Det er viktig at tasklist med avhengigheter har tittel `Avhengigheter`, da dette benyttes ifbm. rapportering. Se også [nivå](https://github.com/digdir/roadmap#niv%C3%A5) for mer info.
 
 Se [eksempel](https://github.com/orgs/digdir/projects/8/views/2?pane=issue&itemId=24019705) fra roadmap for Altinn Studio:
 
 ![image](https://github.com/digdir/roadmap/assets/6088624/a1e61139-5d6f-4056-8c6f-be13956677a9)
-
-### Tracks
-Bruk av [tasklist](https://docs.github.com/en/issues/tracking-your-work-with-issues/about-tasklists) gjør at man i tabell-layout for et produkt kan følge med på status på tvers av underliggende epos med en ["Tracks"-kolonne](https://docs.github.com/en/issues/planning-and-tracking-with-projects/understanding-fields/about-tracks-and-tracked-by-fields#enabling-the-tracks-field).
-
-Se [eksempel](https://github.com/orgs/digdir/projects/8/views/5?layout=table) fra roadmap for Autorisasjon:
-
-![Image](https://user-images.githubusercontent.com/6088624/245457571-d7aa1d58-5d28-48a6-ba31-864435e055f9.png)
 
 ### Labels
 Hvert produkt har sin egen label, og hvert element i roadmap skal ha kun ha en produktlabel.  
